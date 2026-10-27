@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Paradise Resort</title>
+	</head>
+	<body>
+    		<h1>Paradise Resort</h1>
+    		<p>
+       			 Welcome to <b>Paradise Resort</b>, a beautiful destination located in a
+        		<i>peaceful and scenic location</i>. Enjoy our <u>comfortable rooms</u>,
+        		<strong>excellent facilities</strong>, and <em>exciting attractions</em>
+     			   for a memorable holiday experience.
+    		</p>
+    	<hr>
+    		<h2>Resort Image</h2>
+
+ 		 <img src="https://gos3.ibcdn.com/c8a8f4f8-fb82-477b-be55-3ce1c673a322.jpeg"
+       		  alt="Beautiful view of Paradise Resort"  width="600" height="350">
+    	<hr>
+   		 <h2>Resort Facilities</h2>
+
+   		 <ul>
+      			  <li>Swimming Pool</li>
+      			  <li>Restaurant</li>
+       			 <li>Free Wi-Fi</li>
+      			  <li>Spa</li>
+       			 <li>Conference Hall</li>
+        		<li>Parking</li>
+    		</ul> 
+    	<hr>
+			<h2>Room Details</h2>
+    		<table border="1" cellpadding="10" cellspacing="0">
+    		    <tr>
+          		  <th>Room Type</th>
+          		  <th>Capacity</th>
+           		 <th>Price per Night</th>
+           		 <th>Facilities</th>
+        	</tr>
+       		 <tr>
+        	  	  <td>Deluxe Room</td>
+          	 	 <td>2 Persons</td>
+          	 	 <td>₹4000</td>
+          	 	 <td>AC, TV, Wi-Fi</td>
+        	</tr>
+        	<tr>
+            		<td>Family Room</td>
+            		<td>4 Persons</td>
+            		<td>₹6500</td>
+           		<td>AC, TV, Wi-Fi</td>
+    	    </tr>
+       	    <tr>
+            		<td>Suite</td>
+           		 <td>2 Persons</td>
+           		 <td>₹8000</td>
+            		<td>AC, TV, Wi-Fi, Mini Bar</td>
+       	    </tr>
+    	</table>
+    	<hr>
+    		<h2>Useful Links</h2>
+    	<ul>
+        <li>
+            	<a href="program12.html">Resort Home Page</a>
+        </li>
+        <li>
+           	 <a href="https://www.google.com/maps" target="_blank">
+            	    View Location
+            </a>
+        </li>
+        <li>
+           	 <a href="contact.html">Contact Us</a>
+        </li>
+        <li>
+            	<a href="https://www.booking.com" target="_blank">
+               	 Travel/Booking Website
+            </a>
+        </li>
+    </ul>
+    <hr>
+    	<h2>Online Booking Form</h2>
+    	<form action="#" method="post">
+        <label for="guestname">Guest Name:</label>
+        <input type="text" id="guestname" name="guestname" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+        <br><br>
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+        <br><br>
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+        <br><br>
+        <label for="room">Room Type:</label>
+        <select id="room" name="room">
+            <option value="deluxe">Deluxe Room</option>
+            <option value="family">Family Room</option>
+            <option value="suite">Suite</option>
+        </select>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <label>Facilities Required:</label>
+        <br>
+        <input type="checkbox" id="pool" name="facilities" value="Swimming Pool">
+        <label for="pool">Swimming Pool</label>
+        <br>
+        <input type="checkbox" id="spa" name="facilities" value="Spa">
+        <label for="spa">Spa</label>
+        <br>
+        <input type="checkbox" id="wifi" name="facilities" value="Free Wi-Fi">
+        <label for="wifi">Free Wi-Fi</label>
+        <br>
+        <input type="checkbox" id="parking" name="facilities" value="Parking">
+        <label for="parking">Parking</label>
+        <br><br>
+        <label for="requests">Special Requests:</label>
+        <br>
+        <textarea id="requests" name="requests" rows="5" cols="40"></textarea>
+        <br><br>
+        <label for="idproof">Upload ID Proof:</label>
+        <input type="file" id="idproof" name="idproof">
+        <br><br>
+        <button type="submit">Book Now</button>
+        <button type="reset">Reset</button>
+    </form>
+    <hr>
+    <footer>
+        <p>© 2026 Paradise Resort | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
